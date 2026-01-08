@@ -1,6 +1,6 @@
 function CPM
     %file name prefix
-    name='figure4';
+    name='figure';
     
     %initialise lattice parameters
     gridWidth=150;

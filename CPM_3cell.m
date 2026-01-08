@@ -1,6 +1,6 @@
 function CPM_3cell
     %file name prefix
-    name='figure5';
+    name='figure';
     
     %initialise lattice parameters
     gridWidth=150;
@@ -10,10 +10,10 @@ function CPM_3cell
     lambdaV=1;
     T=1;
     targetVolume=[0 2500 2500,2500];
-J = [ 0  1 10 10;
-      1  0  1  5;
-     10  1  0  1;
-     10  5  1  0];
+    J = [ 0  1 10 10;
+          1  0  1  5;
+         10  1  0  1;
+         10  5  1  0];
 
  
     %defines neighbour directions, the Moore 8-neighbourhood 
